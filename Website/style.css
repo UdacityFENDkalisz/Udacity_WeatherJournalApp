@@ -1,0 +1,146 @@
+html {
+    background: url(images/IMG_4180.jpeg) no-repeat center fixed;
+    background-size: cover;
+    background-color: #fcf8ec;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    // grid-template-columns:  
+    height:100vh;
+    background: #f23557;
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+*/
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.holder{
+
+}
+
+.entry{
+    background: rgba(92, 106, 134, 0.5);
+}
+
+#journal{
+    text-align: center;
+    color: #fcf8ec;
+    font-size: large;
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+    text-align: center;
+
+}
+
+.headline {
+    width: 100%;
+    text-align: center;
+    /*background-color: #456268;*/
+    color: 	#3b4a6b;
+    size: 2em;
+    margin-bottom: 1em;
+    padding: 2em;
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 1.7em;
+    color: #444;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#fcf8ec;
+    color: #A1ACC4;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: #444 solid 1px;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #A1ACC4;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    align-items: center;
+    margin: 1em;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#fcf8ec;
+    color: #A1ACC4;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #A1ACC4; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #A1ACC4; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #A1ACC4; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+footer {
+    text-align: center;
+    padding: 1em;
+    color:#7F8CAA;
+}
