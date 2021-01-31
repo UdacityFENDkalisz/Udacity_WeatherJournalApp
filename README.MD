@@ -18,10 +18,11 @@ API_KEY={your key here}
 If Node is installed, then you can use the Node Package Manager to install the packages needed to run this program. In the terminal, use this command:
 
 ```
-npm install
+$ cd Udacity_WeatherJournalApp
+$ npm install
 ```
 When those packages have installed, make builds and start the server with the following command:
 
 ```
-node run server.js
+$ node run server.js
 ```
