@@ -24,5 +24,5 @@ $ npm install
 When those packages have installed, make builds and start the server with the following command:
 
 ```
-$ node run server.js
+$ node server.js
 ```
