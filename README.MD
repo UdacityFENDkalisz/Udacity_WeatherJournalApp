@@ -1,4 +1,6 @@
-# Evaluate News App Project
+# Weather Journal App Project
+
+> This project was created as a part of Udacity's Front End Nanodegree. It is a web app which logs the weather at your current location, as well as your feelings at the time of the log.
 
 ## Description
 This project is an asynchronous web app that uses the [OpenWeather](https://openweathermap.org/api) API service to provide weather information with a zip code entered by the user. Local server running on *Express* is used.
